@@ -279,6 +279,17 @@ input[type=submit]:hover {
     background-color: #071624;
     color: white;
 }
+.image {
+    padding-top: 5%;
+    background-color: #12192c;
+    display: flex;
+    border-radius: 12px 0 0 12px;
+}
+
+.image img {
+    height: 50vh;
+    margin: 50px auto
+}
 
 .container form {
     font-weight: bold;
@@ -294,9 +305,7 @@ input[type=submit]:hover {
 
     .image {
         height: 100vh;
-        padding-top: 5%;
         border-radius: none;
-        padding-top: 10%;
     }
 
     .content {
@@ -304,16 +313,11 @@ input[type=submit]:hover {
         border-radius: none;
     }
 
-    .container {
+    .container form {
         grid-template-columns: 1fr;
         width: 100%;
         border-radius: none;
         padding-right: 5%;
-    }
-    .action_page.php {
-        height: 100vh;
-        border-radius: none;
-        padding-top: 5%;
     }
 }
 
